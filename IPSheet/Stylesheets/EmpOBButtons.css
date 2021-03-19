@@ -1,0 +1,91 @@
+﻿body {
+    background-color: lavender;
+    
+}
+
+h1 {
+    background-color: white;
+    color: blue;
+    /*background-image: linear-gradient(to bottom right, blue, white);*/
+    text-align: center;
+    font-variant:normal ;
+    font-family: Verdana;
+    /*font-style: italic*/;
+    /*border: outset;*/
+    border-width: 10px 20px;
+    border-radius: 8px;
+}
+p {
+    color: blue;
+    text-align: left;
+    font-style: italic
+}
+.button {
+    background-color: #3282f7;
+    text-decoration: wavy;
+    margin: 50px;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    width: 200px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    opacity: 0.6;
+    transition: 0.6s;
+}
+    .button:hover {
+        opacity: 1;
+    }
+
+.button2 {
+    background-color: #3282f7;
+    text-decoration: wavy;
+    margin: 50px;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    width: 200px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    opacity: 0.1;
+}
+
+.button1 {
+    background-color: #3282f7;
+    margin: 50px;
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    width: 60px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 8px;
+    opacity: 0.8;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button1:hover {
+    opacity: 1;
+}
+
+.column {
+    width: 20%;
+    float: left;
+    padding: 0px;
+}
+
+.column1 {
+    width: 80%;
+    float: left;
+    padding: 15px;
+}
+

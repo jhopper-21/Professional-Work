@@ -1,0 +1,13 @@
+﻿
+Employee OB:
+INSERT command to add new users to database.
+Fix bug in IP Spreadsheet
+	EXPECTED ACTION: No controls are expired
+	ACTUAL ACTION: ddl.selectedindexchanged disables rest of controls.
+
+	3/11/2021
+1 (ADDED) Add Branch specific Default Gateway, IP Range, Subnet Mask info to IP Spreadsheet.
+	PsC: When a location is selected from dropdown list, a label above the gridview will display the information above. For other searches, no information in label.
+2. (ADDED) Add permission groups in User Search
+	PsC: To the right of the Employee gridview, add another grid view showing all permssion groups. Add option to add permission group. No Edit or Delete is needed.
+3. DNS refresh.
